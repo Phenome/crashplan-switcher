@@ -6,7 +6,7 @@ Paths are all hard coded, so it only works on Windows 64, with CrashPlan install
 #Set up
 * Copy your `.ui_info` file to `.ui_info.local`. (*On `\ProgramData\CrashPlan`*)
   * `.ui_info` will get overwritten on every CPSwitcher launch
-* You need to have your private/public SSH keys set up on `*PROFILE*\\.ssh\id_rsa`
+* You need to have your private/public SSH keys set up on *PROFILE*`\.ssh\id_rsa`
 * You need to have those keys listed on the `authorized_keys` file on each remote machine
 * **ssh** terminal command must exist (tried briefly to create tunnels with a few libraries to no avail, so...)
 
