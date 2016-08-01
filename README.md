@@ -1,5 +1,5 @@
 # crashplan-switcher
-Easily switches between remote CrashPlan instances (via SSH) or local
+Easily switches between remote CrashPlan instances (via SSH) or local from Windows
 
 Paths are all hard coded, so it only works on Windows 64, with CrashPlan installed for all users.
 
@@ -21,3 +21,4 @@ It will copy .ui_info via SSH and overwrite the local .ui_info, create a ssh tun
 #To do
 * Make it less hard coded
 * Use a library to create the SSH tunnel, so I don't have to invoke the **ssh** process
+* Make it work on other platforms?
